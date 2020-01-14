@@ -14,6 +14,8 @@ If the shader files cannot be loaded properly, try to re-include them in the Bui
 This project might be switched to a windows VS build version later.
 
 
-#Demo
-Manipulating head model pose: ![alt-text](gif/demo0.gif)
-Keyframe animation: ![alt-text](gif/demo1.gif)
+# Demo
+Manipulating head model pose: 
+![alt-text](gif/demo0.gif)
+Keyframe animation: 
+![alt-text](gif/demo1.gif)
