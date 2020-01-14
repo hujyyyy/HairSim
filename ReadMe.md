@@ -16,6 +16,9 @@ This project might be switched to a windows VS build version later.
 
 # Demo
 Manipulating head model pose: 
+
 ![alt-text](gif/demo0.gif)
-Keyframe animation: 
+
+Keyframe animation:
+ 
 ![alt-text](gif/demo1.gif)
