@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD5064542169F9310062386F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5064532169F9310062386F /* main.cpp */; };
+		AD50646C216A06910062386F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50645D2169FB620062386F /* OpenGL.framework */; };
+		ADB0964A23CD64570080A0A7 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADB0964923CD64530080A0A7 /* shaders */; };
+		ADB0965223CD66450080A0A7 /* libomp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0964D23CD66420080A0A7 /* libomp.dylib */; };
+		ADB0965723CD6B700080A0A7 /* libnanogui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0964B23CD663C0080A0A7 /* libnanogui.dylib */; };
+		ADB0965B23CD6C730080A0A7 /* libassimp.4.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB0964C23CD663F0080A0A7 /* libassimp.4.1.0.dylib */; };
+		ADF97AF0216A537C008E907B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF97AEF216A537A008E907B /* CoreFoundation.framework */; };
+		ADF97AF5216B4639008E907B /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = ADF97AF4216B4637008E907B /* glad.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD50644E2169F9310062386F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				ADB0964A23CD64570080A0A7 /* shaders in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD5064502169F9310062386F /* CS275HW_HairSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS275HW_HairSim; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5064532169F9310062386F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD50645D2169FB620062386F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AD50645F2169FB760062386F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AD5064612169FB800062386F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		AD5064632169FB880062386F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AD5064652169FB970062386F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		AD5064672169FBCD0062386F /* usr */ = {isa = PBXFileReference; lastKnownFileType = folder; name = usr; path = ../../../../../../../usr; sourceTree = "<group>"; };
+		AD5064692169FC810062386F /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		AD50646D216A06B00062386F /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = libs/libglfw3.a; sourceTree = "<group>"; };
+		AD50646F216A098C0062386F /* hw */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hw; path = ../..; sourceTree = "<group>"; };
+		AD506471216A15820062386F /* glfw3.pc */ = {isa = PBXFileReference; lastKnownFileType = text; name = glfw3.pc; path = libs/glfw3.pc; sourceTree = "<group>"; };
+		AD506474216A19240062386F /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		AD506476216A25890062386F /* libassimp.4.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.1.0.dylib; path = ../../../../../../../usr/local/Cellar/assimp/4.1.0/lib/libassimp.4.1.0.dylib; sourceTree = "<group>"; };
+		AD50647E216A4A270062386F /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		AD94B78221723FD3004481CA /* libnanogui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnanogui.dylib; path = ../../../../../../../usr/local/lib/libnanogui.dylib; sourceTree = "<group>"; };
+		AD94B785217243AD004481CA /* nanogui.cpython-37m-darwin.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "nanogui.cpython-37m-darwin.so"; path = "../../../../../../../usr/local/lib/nanogui.cpython-37m-darwin.so"; sourceTree = "<group>"; };
+		ADAF777121AF8FA000BB5B8C /* libomp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libomp.dylib; path = ../../../../../../../usr/local/Cellar/libomp/7.0.0/lib/libomp.dylib; sourceTree = "<group>"; };
+		ADB0964423CD5CE00080A0A7 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		ADB0964923CD64530080A0A7 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = CS275HW_HairSim/shaders; sourceTree = "<group>"; };
+		ADB0964B23CD663C0080A0A7 /* libnanogui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnanogui.dylib; path = libs/libnanogui.dylib; sourceTree = "<group>"; };
+		ADB0964C23CD663F0080A0A7 /* libassimp.4.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.4.1.0.dylib; path = libs/libassimp.4.1.0.dylib; sourceTree = "<group>"; };
+		ADB0964D23CD66420080A0A7 /* libomp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libomp.dylib; path = libs/libomp.dylib; sourceTree = "<group>"; };
+		ADF97AEF216A537A008E907B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		ADF97AF1216A5B08008E907B /* libsoil2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsoil2.a; path = libs/libsoil2.a; sourceTree = "<group>"; };
+		ADF97AF3216B4154008E907B /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		ADF97AF4216B4637008E907B /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glad.c; path = CS275HW_HairSim/glad.c; sourceTree = "<group>"; };
+		ADF97B02216B4F64008E907B /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = models; path = CS275HW_HairSim/models; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD50644D2169F9310062386F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB0965B23CD6C730080A0A7 /* libassimp.4.1.0.dylib in Frameworks */,
+				ADB0965223CD66450080A0A7 /* libomp.dylib in Frameworks */,
+				ADF97AF0216A537C008E907B /* CoreFoundation.framework in Frameworks */,
+				AD50646C216A06910062386F /* OpenGL.framework in Frameworks */,
+				ADB0965723CD6B700080A0A7 /* libnanogui.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5064472169F9310062386F = {
+			isa = PBXGroup;
+			children = (
+				ADB0964923CD64530080A0A7 /* shaders */,
+				ADF97B02216B4F64008E907B /* models */,
+				ADF97AF4216B4637008E907B /* glad.c */,
+				ADF97AF3216B4154008E907B /* include */,
+				AD5064522169F9310062386F /* CS275HW_HairSim */,
+				AD5064512169F9310062386F /* Products */,
+				AD50645C2169FB620062386F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5064512169F9310062386F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5064502169F9310062386F /* CS275HW_HairSim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5064522169F9310062386F /* CS275HW_HairSim */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0964423CD5CE00080A0A7 /* shaders */,
+				AD5064532169F9310062386F /* main.cpp */,
+			);
+			path = CS275HW_HairSim;
+			sourceTree = "<group>";
+		};
+		AD50645C2169FB620062386F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADAF777121AF8FA000BB5B8C /* libomp.dylib */,
+				ADB0964C23CD663F0080A0A7 /* libassimp.4.1.0.dylib */,
+				ADB0964B23CD663C0080A0A7 /* libnanogui.dylib */,
+				ADB0964D23CD66420080A0A7 /* libomp.dylib */,
+				AD94B785217243AD004481CA /* nanogui.cpython-37m-darwin.so */,
+				AD94B78221723FD3004481CA /* libnanogui.dylib */,
+				ADF97AF1216A5B08008E907B /* libsoil2.a */,
+				ADF97AEF216A537A008E907B /* CoreFoundation.framework */,
+				AD50647E216A4A270062386F /* libGLEW.2.1.0.dylib */,
+				AD506476216A25890062386F /* libassimp.4.1.0.dylib */,
+				AD506474216A19240062386F /* libglfw.3.2.dylib */,
+				AD506471216A15820062386F /* glfw3.pc */,
+				AD50646F216A098C0062386F /* hw */,
+				AD5064692169FC810062386F /* libglfw3.a */,
+				AD50646D216A06B00062386F /* libglfw3.a */,
+				AD5064672169FBCD0062386F /* usr */,
+				AD5064652169FB970062386F /* IOKit.framework */,
+				AD5064632169FB880062386F /* CoreVideo.framework */,
+				AD5064612169FB800062386F /* GLUT.framework */,
+				AD50645F2169FB760062386F /* Cocoa.framework */,
+				AD50645D2169FB620062386F /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD50644F2169F9310062386F /* CS275HW_HairSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5064572169F9310062386F /* Build configuration list for PBXNativeTarget "CS275HW_HairSim" */;
+			buildPhases = (
+				AD50644C2169F9310062386F /* Sources */,
+				AD50644D2169F9310062386F /* Frameworks */,
+				AD50644E2169F9310062386F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CS275HW_HairSim;
+			productName = CS275HW_HairSim;
+			productReference = AD5064502169F9310062386F /* CS275HW_HairSim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5064482169F9310062386F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = hujy;
+				TargetAttributes = {
+					AD50644F2169F9310062386F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = AD50644B2169F9310062386F /* Build configuration list for PBXProject "CS275HW_HairSim" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD5064472169F9310062386F;
+			productRefGroup = AD5064512169F9310062386F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD50644F2169F9310062386F /* CS275HW_HairSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD50644C2169F9310062386F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5064542169F9310062386F /* main.cpp in Sources */,
+				ADF97AF5216B4639008E907B /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD5064552169F9310062386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD5064562169F9310062386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD5064582169F9310062386F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/include",
+					"$(SRCROOT)/include/nanovg/src",
+					"$(SRCROOT)/include/libomp/include",
+					"$(SRCROOT)/include/core",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/libs",
+					"$(SRCROOT)/libs/libomp/lib",
+				);
+				OTHER_CFLAGS = (
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-lomp",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD5064592169F9310062386F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/include",
+					"$(SRCROOT)/include/nanovg/src",
+					"$(SRCROOT)/include/libomp/include",
+					"$(SRCROOT)/include/core",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/libs",
+					"$(SRCROOT)/libs/libomp/lib",
+				);
+				OTHER_CFLAGS = (
+					"-Xpreprocessor",
+					"-fopenmp",
+					"-lomp",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD50644B2169F9310062386F /* Build configuration list for PBXProject "CS275HW_HairSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5064552169F9310062386F /* Debug */,
+				AD5064562169F9310062386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5064572169F9310062386F /* Build configuration list for PBXNativeTarget "CS275HW_HairSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5064582169F9310062386F /* Debug */,
+				AD5064592169F9310062386F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5064482169F9310062386F /* Project object */;
+}
