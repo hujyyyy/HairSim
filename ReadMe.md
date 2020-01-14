@@ -23,4 +23,4 @@ Keyframe animation:
 
 ![alt-text](gif/demo1.gif)
 
-The demo video is available [here](https://www.youtube.com/watch?v=vzPa_2JzmEU&t=1s)
+## The demo video is available [here](https://www.youtube.com/watch?v=vzPa_2JzmEU&t=1s)
